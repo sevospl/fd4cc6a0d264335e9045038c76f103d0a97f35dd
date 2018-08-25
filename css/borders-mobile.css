@@ -1,0 +1,28 @@
+.topic-list>tbody>tr:nth-child(odd), .topic-list>tbody>tr:nth-child(even), .topic-post{
+    border-bottom: 1px solid #202020;
+}
+.topic-post article,
+#topic-footer-buttons,
+.small-action {
+    border: none;
+}
+.topic-list > tbody > tr:first-of-type {
+    border-top: 3px solid #069;
+}
+.category-list-item.category > .topic-list > tr {
+    border: 0px;
+}
+aside.quote .title, blockquote {
+    border-left-color: #069;
+}
+.spinner {
+    border:3px solid #069;
+    border-right-color: transparent;
+}
+.topic-list .topic-list-item-separator td {
+    border-bottom: 1px solid #046;
+}
+.topic-list .topic-list-item-separator td span {
+    background-color: #333333;
+    color: #999;
+}
